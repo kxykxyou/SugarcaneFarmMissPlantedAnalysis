@@ -1,9 +1,13 @@
 # SugarcaneFarmMissPlantedAnalysis
 Analyzing miss-planted point of sugarcane farm via aerial image, which is a cooperation project with GEOSAT.
 
+## project aim: label miss-planted point and its level on sugarcane farm aerial image.
+<img src = 'https://github.com/kxykxyou/SugarcaneFarmMissPlantedAnalysis/blob/main/Illustrations/sugarcane_NDVI_rotate.png' width = '500'></img>
+<img src = 'https://github.com/kxykxyou/SugarcaneFarmMissPlantedAnalysis/blob/main/Illustrations/result.png' width = '500'></img>
+
+
 ## 專案流程
 
-### 步驟
 NDVI在偵測植被上的應用：利用紅光與遠紅外光的比例，作為判斷地表空拍圖中綠色的濃度；一般而言地表上綠色的面積會被視為植被面積
 以下使用的NDVI圖檔已經轉為灰階；數值越大、越白，表示植被濃度越高；而黑色的區域就為甘蔗田中的走道抑或是缺株處（miss-planted point）  
 <img src = 'https://github.com/kxykxyou/SugarcaneFarmMissPlantedAnalysis/blob/main/Illustrations/Illustrations.001.png' width = '500'></img>
@@ -41,7 +45,7 @@ NDVI在偵測植被上的應用：利用紅光與遠紅外光的比例，作為�
 <img src = 'https://github.com/kxykxyou/SugarcaneFarmMissPlantedAnalysis/blob/main/Illustrations/Illustrations.011.png' width = '500'></img>
 
 最後再將缺株點與嚴重程度對應回原本的x, y座標上
-# 
+<img src = 'https://github.com/kxykxyou/SugarcaneFarmMissPlantedAnalysis/blob/main/Illustrations/result.png' width = '700'></img>
 
 最後就是比較選擇不同植株大小、kmeans分群數、色彩門檻值時，對最後視覺化的影響
 <img src = 'https://github.com/kxykxyou/SugarcaneFarmMissPlantedAnalysis/blob/main/Illustrations/Illustrations.012.png' width = '700'></img>
